@@ -1,6 +1,6 @@
 Step 1: Download Datasets: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
-Step 2: Install dependencies
+Step 2: Install dependencies:
  pip install -r requirements.txt
  
 Step 3: Run movie.py 
