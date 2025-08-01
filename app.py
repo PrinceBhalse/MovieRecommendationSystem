@@ -13,8 +13,8 @@ def download_file(url, filename):
         urllib.request.urlretrieve(url, filename)
 
 # URLs from Hugging Face or other source
-download_file("https://huggingface.co/your-username/repo-name/resolve/main/similarity.pkl", "similarity.pkl")
-download_file("https://huggingface.co/your-username/repo-name/resolve/main/movie_dict.pkl", "movie_dict.pkl")
+download_file("https://huggingface.co/spaces/Princebhalse92/movie-model-files/resolve/main/similarity.pkl", "similarity.pkl")
+download_file("https://huggingface.co/spaces/Princebhalse92/movie-model-files/resolve/main/movie_dict.pkl", "movie_dict.pkl")
 
 with open('movie_dict.pkl', 'rb') as f:
     movies_dict = pickle.load(f)
