@@ -19,9 +19,9 @@ def download_file(url, filename):
 
 # ------------------ File URLs ------------------ #
 similarity_url = "https://huggingface.co/spaces/Princebhalse92/movie-model-files/resolve/main/similarity.pkl"
-movie_dict_url = "https://huggingface.co/spaces/Princebhalse92/movie-model-files/resolve/main/movie_dict.pkl"
+# movie_dict_url = "https://huggingface.co/spaces/Princebhalse92/movie-model-files/resolve/main/movie_dict.pkl"
 
-download_file(movie_dict_url, "movie_dict.pkl")
+# download_file(movie_dict_url, "movie_dict.pkl")
 download_file(similarity_url, "similarity.pkl")
 
 # ------------------ Load Data ------------------ #
